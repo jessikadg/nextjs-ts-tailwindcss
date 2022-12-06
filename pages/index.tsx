@@ -3,9 +3,10 @@ import Head from 'next/head'
 export default function Home() {
   return (
 
+ 
   <div className='max-w-md m-auto'>
     <Head>
-      <title>Title</title>
+      <title>A NextJS App</title>
     </Head>
     <section className='my-20'>
       <h1 className="text-3xl my-5 font-light" >A (not so) simple NextJS project</h1>
@@ -25,5 +26,6 @@ export default function Home() {
       </div>
     </section>
     </div>
+
   )
 }
